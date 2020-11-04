@@ -2,24 +2,71 @@
     font-family: FredokaOne;
     src: url(../fonts/FredokaOne-Regular.ttf);
 }
-table {
+body{
     width: 100%;
-    border-spacing: 0;
+    font-family: FrefokaOne, sans-serif;
+    border: 0;
+}
+div.Head {
+    width: 100%;   
+    background: url(../images/Cloths-bc740630f228713e4bb0de8a7bffce22.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -20em;
+}
+#navigation{
+    display: block;
+}
+#head3{
+    float: right;
+    align-items: left;
+    color: black;
+    margin-right: 18px;
+    font-family: FredokaOne, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
 }
 #head1 {
    color: black;
    font-family: FredokaOne, sans-serif;
    font-style: normal;
    font-weight: lighter;
-   font-size: 20px;
+   font-size: 25px;
+}
+.button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 #head2{
     color: aquamarine;
     font-family: FredokaOne, sans-serif;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 25px;
+    
 }
 
-img#backgroud1 {
-    width: 900px;
+#feature_section{
+    margin-top: 40px;
+    color: grey;
+    text-align: center;
+    font-family: Fredokaone, sans-serif;
+}
+#main{
+    text-align: center;
+    color: black;
+    font-family: Fredokaone, sans-serif;
+}
+#search_bar{
+    width: 40%;
+    color: black;
+    font-family: Fredokaone, sans-serif;
+    text-align: left;
 }
