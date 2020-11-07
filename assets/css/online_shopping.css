@@ -4,7 +4,6 @@
 }
 body{
     width: 100%;
-    font-family: FrefokaOne, sans-serif;
     border: 0;
 }
 div.Head {
@@ -14,7 +13,7 @@ div.Head {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position-y: -20em;
+    background-position-y: -15em;
 }
 #navigation{
     display: block;
@@ -29,16 +28,18 @@ div.Head {
     font-size: 15px;
 }
 #head1 {
-   color: black;
-   font-family: FredokaOne, sans-serif;
-   font-style: normal;
-   font-weight: lighter;
-   font-size: 25px;
+    margin-left: 2em;
+    color: black;
+    font-family: FredokaOne, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px;
 }
 .button{
-    border: none;
-    color: white;
+    border: 2px solid black;
+    color: black;
     padding: 15px 32px;
+    font-family: fredokaone, sans-serif;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -61,12 +62,55 @@ div.Head {
 }
 #main{
     text-align: center;
+    margin-top: 6em;
     color: black;
     font-family: Fredokaone, sans-serif;
 }
 #search_bar{
-    width: 40%;
+    margin-top: 3em;
+    width: 35%;
+    height: 50px;
     color: black;
     font-family: Fredokaone, sans-serif;
     text-align: left;
+    margin-bottom: 15em;
+}
+
+table.prom{
+    width: 100%;
+}
+span.promo{
+    width: 50em;
+}
+
+img.imgpromo{
+    margin-left: 35em;
+}
+#promo1{
+    margin-top: 10em;
+    width: 33.33%;
+    color: white;
+    background-color: rgb(248, 168, 168);
+    font-family: fredokaone, sans-serif;
+    font-size: 10px;
+    border: 4px black solid;
+}
+#promo2{
+    margin-top: 10em;
+    width: 33.33%;
+    color: white;
+    background-color: rgb(236, 187, 96);
+    font-family: fredokaone, sans-serif;
+    font-size: 10px;
+    border: 4px black solid;  
+}
+
+#promo3{
+    margin-top: 10em;
+    width: 33.33%;
+    color: white;
+    background-color: rgb(231, 151, 231);
+    font-family: fredokaone, sans-serif;
+    font-size: 10px;
+    border: 4px black solid;
 }
