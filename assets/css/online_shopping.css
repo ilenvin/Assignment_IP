@@ -15,14 +15,14 @@ div.Head {
     background-attachment: fixed;
     background-position-y: -15em;
 }
-#navigation{
+/*#navigation{
     display: block;
-}
+}*/
 #head3{
     float: right;
     align-items: left;
     color: black;
-    margin-right: 18px;
+    margin-right: 16px;
     font-family: FredokaOne, sans-serif;
     font-weight: lighter;
     font-size: 15px;
@@ -50,10 +50,8 @@ div.Head {
     color: aquamarine;
     font-family: FredokaOne, sans-serif;
     font-weight: lighter;
-    font-size: 25px;
-    
+    font-size: 25px;   
 }
-
 #feature_section{
     margin-top: 40px;
     color: grey;
@@ -75,42 +73,37 @@ div.Head {
     text-align: left;
     margin-bottom: 15em;
 }
-
-table.prom{
-    width: 100%;
+div.promotion{
+    display: flex;
 }
 span.promo{
-    width: 50em;
+    margin: 4em 2em 4em 2em;
+    width: 29em;
+    padding: 20px 10px 20px 10px;
+    font-family: fredokaone, sans-serif;
 }
-
-img.imgpromo{
-    margin-left: 35em;
+span.promo button{
+    margin-top: -10em;
+}
+div.promotion img{
+    margin-left: 23em;
+    width: 75px;
 }
 #promo1{
-    margin-top: 10em;
-    width: 33.33%;
     color: white;
     background-color: rgb(248, 168, 168);
-    font-family: fredokaone, sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     border: 4px black solid;
 }
 #promo2{
-    margin-top: 10em;
-    width: 33.33%;
     color: white;
     background-color: rgb(236, 187, 96);
-    font-family: fredokaone, sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     border: 4px black solid;  
 }
-
 #promo3{
-    margin-top: 10em;
-    width: 33.33%;
     color: white;
     background-color: rgb(231, 151, 231);
-    font-family: fredokaone, sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     border: 4px black solid;
 }
