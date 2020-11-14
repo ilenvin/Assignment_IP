@@ -13,27 +13,32 @@ div.Head {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position-y: -15em;
+    background-position-y: -17em;   
 }
-/*#navigation{
-    display: block;
-}*/
-#head3{
-    float: right;
-    align-items: left;
-    color: black;
-    margin-right: 16px;
+div.navigation{
     font-family: FredokaOne, sans-serif;
     font-weight: lighter;
-    font-size: 15px;
 }
 #head1 {
     margin-left: 2em;
     color: black;
-    font-family: FredokaOne, sans-serif;
     font-style: normal;
-    font-weight: lighter;
-    font-size: 25px;
+    font-size:40px;
+}
+#head2{
+    color: aquamarine;
+    font-size: 40px;   
+}
+#head3{
+    float: right;
+    align-items: left;
+    color: black;
+    margin-right: 4em;
+    font-size: 15px;
+}
+#head3 img{
+    width: 1.5em;
+    padding-right: 0.5em;
 }
 .button{
     border: 2px solid black;
@@ -46,64 +51,147 @@ div.Head {
     margin: 4px 2px;
     cursor: pointer;
 }
-#head2{
-    color: aquamarine;
-    font-family: FredokaOne, sans-serif;
-    font-weight: lighter;
-    font-size: 25px;   
+#head3 button{
+    margin-left: 1em;
 }
-#feature_section{
-    margin-top: 40px;
+div.feature_section{
+    margin-top: 5em;
     color: grey;
     text-align: center;
     font-family: Fredokaone, sans-serif;
 }
 #main{
+    font-size: 40px;
     text-align: center;
-    margin-top: 6em;
+    margin-top: 4em;
     color: black;
-    font-family: Fredokaone, sans-serif;
 }
 #search_bar{
     margin-top: 3em;
     width: 35%;
     height: 50px;
     color: black;
+    border-radius: 3em;
     font-family: Fredokaone, sans-serif;
+    font-size: 1.2em;
     text-align: left;
-    margin-bottom: 15em;
+    margin-bottom: 7em;
 }
 div.promotion{
     display: flex;
 }
-span.promo{
+div.promo{
     margin: 4em 2em 4em 2em;
     width: 29em;
     padding: 20px 10px 20px 10px;
     font-family: fredokaone, sans-serif;
+    font-size: 15px;
 }
-span.promo button{
-    margin-top: -10em;
+div.promo button{
+    margin-top: -2em;
 }
 div.promotion img{
-    margin-left: 23em;
+    margin-left: 22em;
+    margin-top: -2em;
     width: 75px;
 }
 #promo1{
     color: white;
     background-color: rgb(248, 168, 168);
-    font-size: 15px;
     border: 4px black solid;
 }
 #promo2{
     color: white;
     background-color: rgb(236, 187, 96);
-    font-size: 15px;
     border: 4px black solid;  
 }
 #promo3{
     color: white;
     background-color: rgb(231, 151, 231);
-    font-size: 15px;
     border: 4px black solid;
+}
+@media only screen and (max-width: 700px){
+    div.promotion{
+        display: list-item;
+    }
+    div.promo button{
+        align-items: left;
+    }
+
+}
+div.body{ 
+    display: flex; 
+    width: 100%;
+}
+div.category_section{
+    margin-top: 3em;
+    display: list-item;
+    width: 25em;
+}
+div.category_section div{
+    display: flex;
+    font-family: fredokaone, sans-serif;
+    font-size: 15px;
+    margin-left: 2em;
+}
+div.category_section img{
+    width: 50px;
+    height: 50px;
+    margin-right: 1em;
+}
+
+div.product_section{
+    width: 75em;
+    background-color: rgba(248, 248, 244, 0.973);
+}
+div.row{
+    display: flex;
+}
+div.product{
+    width: 17.75em;
+    background-color: white;
+    border: 2px solid black;
+    padding: 1em;
+    font-family: fredokaone, sans-serif;
+    margin: 2em 0em 2em 3em;
+}
+div#discount{
+    width: 2.8em;
+    height: 1.5em;
+    padding-top: 0.4em;
+    margin-left: 15em;
+    text-align: center;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 0.5em;
+}
+.pro_img{
+    width: 10em;
+    margin-left: 3.5em;
+}
+div.product button{
+    display: flex;
+    margin-left: 10em;
+    margin-top: -5em;
+}
+#buttonimg{
+    width: 20px;
+}
+#old_price{
+    color: red;
+    text-decoration-line: line-through;
+}
+#new_price{
+    display: flex;
+    color: green;
+}
+div#load_more{
+    font-family: fredokaone, sans-serif;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-left: 32.5em;
+    text-align: center;
+    background-color: rgb(110, 212, 110);
+    border-radius: 0.5em;
 }
