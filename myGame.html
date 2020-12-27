@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MyGame</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/myGame.css">
+    </head>
+    <body>
+        <div class="header">
+            <div>
+                <span>Score: </span><span id="scoreEl" >0</span>
+            </div>
+            <div id="time">
+                <span>Time: </Span><span  id="timeEl">60</span>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="popup" id="modalEl">
+                <h1 id="bigScoreEl">0</h1>
+                <p>Points</p>
+                <div>
+                    <button class="button" id="StartGameBtn">
+                        Start Game
+                    </button>
+                </div>
+            </div>
+            <canvas id="myGame" tabindex="1"></canvas>
+        </div>
+        <script src="./assets/js/myGame.js"></script>
+    </body>
+</html>
